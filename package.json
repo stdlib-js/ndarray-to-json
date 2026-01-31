@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-to-json",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Serialize an ndarray as a JSON object.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/complex-float64-imag": "^0.1.1",
     "@stdlib/complex-float64-real": "^0.1.1",
-    "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.3.0",
     "@stdlib/ndarray-base-assert-is-read-only": "^0.2.2",
     "@stdlib/ndarray-base-ind2sub": "^0.2.2",
     "@stdlib/ndarray-base-numel": "^0.2.2",
@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-zero-to": "^0.2.1",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-is-plain-object": "^0.2.2",
     "@stdlib/ndarray-base-shape2strides": "^0.2.2",
@@ -101,7 +101,6 @@
     "transform",
     "json"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
