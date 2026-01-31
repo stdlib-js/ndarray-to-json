@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-to-json/tags). For example,
+
+```javascript
 import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@v0.1.0-deno/mod.js';
 ```
 
@@ -105,7 +110,7 @@ import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-s
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@v0.1.0-deno/mod.js';
+import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@deno/mod.js';
 
 // Create a data buffer:
 var buffer = zeroTo( 27 );
