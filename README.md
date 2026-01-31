@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@esm/index.mjs';
+import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@v0.1.0-esm/index.mjs';
 ```
 
 #### ndarray2json( x )
@@ -110,7 +110,7 @@ import strides2offset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-s
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@esm/index.mjs';
+import ndarray2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-json@v0.1.0-esm/index.mjs';
 
 // Create a data buffer:
 var buffer = zeroTo( 27 );
