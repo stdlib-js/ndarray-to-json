@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-ndarray-like": "^0.2.2",
+    "@stdlib/assert-is-ndarray-like": "^0.2.3",
     "@stdlib/complex-float64-imag": "^0.1.2",
     "@stdlib/complex-float64-real": "^0.1.2",
     "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.3.1",
